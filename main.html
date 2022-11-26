@@ -4,10 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+    <style>
+        .holder{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            color: white;
+            
+        }
+        #b1{
+            background-color: black;
+        }
+        #b2{
+            background-color: brown;
+        }
+        #b3{
+            background-color: yellow;
+        }
+        #b4{
+            background-color: green;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div class="holder">
+        <div class="box" id="b1">box1</div>
+        <div class="box" id="b2">box2</div>
+        <div class="box" id="b3">box3</div>
+        <div class="box" id="b4">box4</div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
